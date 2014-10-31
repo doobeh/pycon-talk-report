@@ -1,0 +1,10 @@
+# Configuration File.
+
+# Filename of the CSV file export from the review overview page.
+filename: 'PyCon 2015 Talks Review.csv'
+username: 'YOUR@EMAIL.COM'
+password: 'PASSWORD'
+save_path: '/home/user/pycon/downloaded_talks/'
+
+login_url: 'https://us.pycon.org/2015/account/login/'
+talk_url: 'https://us.pycon.org/2015/reviews/review/{talk_id}/'
