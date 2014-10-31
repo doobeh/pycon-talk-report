@@ -12,6 +12,11 @@ user.
 Installation
 ============
 
-Create a virtualenv, and install the requirements `pip install -r requirements.txt`
-and then copy `config-example.yaml` to `config.yaml` and fill in your private
-details and local filesystem location for saving the talks.
+Create a virtualenv, activate it and install the requirements:
+
+    $ virtualenv venv
+    $ . venv/bin/activate
+    $ pip install -r requirements.txt
+
+Copy `config-example.yaml` to `config.yaml` and fill in your private
+details and the location where you'd like to save the talks to.
